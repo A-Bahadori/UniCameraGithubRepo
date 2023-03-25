@@ -1,4 +1,4 @@
-# UniCameraGithubRepo
+# University Camera Project
 Camera application for project approval
 
 
