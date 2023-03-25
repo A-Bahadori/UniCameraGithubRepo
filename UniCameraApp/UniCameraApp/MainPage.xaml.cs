@@ -29,13 +29,7 @@ namespace UniCameraApp
                 {
                     var stream = await result.OpenReadAsync();
 
-                    resultImage.HorizontalOptions = LayoutOptions.Fill;
-                    resultImage.VerticalOptions = LayoutOptions.FillAndExpand;
-
                     resultImage.Source = ImageSource.FromStream(() => stream);
-
-                    resultImage.HorizontalOptions = LayoutOptions.Fill;
-                    resultImage.VerticalOptions = LayoutOptions.FillAndExpand;
                 }
             }
             catch (Exception exception)
@@ -54,13 +48,7 @@ namespace UniCameraApp
                 {
                     var stream = await result.OpenReadAsync();
 
-                    resultImage.HorizontalOptions = LayoutOptions.Fill;
-                    resultImage.VerticalOptions = LayoutOptions.FillAndExpand;
-
                     resultImage.Source = ImageSource.FromStream((() => stream));
-
-                    resultImage.VerticalOptions = LayoutOptions.Fill;
-                    resultImage.HorizontalOptions = LayoutOptions.FillAndExpand;
                 }
             }
             catch (Exception exception)
