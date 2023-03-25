@@ -12,7 +12,7 @@
 
             <Button x:Name="btnPickImg" Text="Pick Image" Clicked="BtnPickImg_OnClicked"></Button>
             <Button x:Name="btnCam" Text="Take Image" Clicked="BtnCam_OnClicked"></Button>
-            <Image x:Name="resultImage" VerticalOptions="FillAndExpand" HorizontalOptions="fi"></Image>
+            <Image x:Name="resultImage" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"></Image>
 
         </StackLayout>
 
